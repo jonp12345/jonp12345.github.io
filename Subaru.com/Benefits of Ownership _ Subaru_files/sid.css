@@ -1,0 +1,16 @@
+a#sheerid {
+	color: #1971d4;
+	border: .05882rem solid transparent;
+	border-color: #1971d4;
+	border-radius: 5px;
+	font-size: .82353rem;
+	line-height: 1rem;
+	max-width: 350px;
+	min-width: 150px;
+	padding: 16.606px 25px;
+	text-align: center;
+	width: 100%;
+	float: left;
+	margin-left: 25px;
+	cursor: pointer;
+}

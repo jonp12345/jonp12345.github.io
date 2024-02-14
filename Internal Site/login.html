@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://partners.subaru.com/customloginpage/pages/login.jsp -->
+<html class="no-js" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    
+    <title>Subaru Login</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="./Subaru Login_files/css">
+    <link rel="stylesheet" href="./Subaru Login_files/materialdesignicons.min.css">
+
+    <link rel="stylesheet" href="./Subaru Login_files/subarunet_vuetify.css">
+
+    <style>
+      a {
+        color: #004890
+      }
+      input[type=text],
+      input[type=password] {
+        background: #fff;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        display:block;
+        width:100%;
+        padding:1rem;
+        
+        margin-top:.5rem;
+        z-index: 1;
+      }
+
+      input + label {
+        opacity:0;
+        transition:all .25s;
+        position: absolute;
+        top:1rem;
+        left:1rem;
+        z-index: 2;
+        
+      }
+     
+      input:valid + label {
+        opacity:.65;
+        font-size:85%;
+        top:0;
+      }
+
+      .field {
+        position:relative;
+        height:5rem;
+      }
+
+      input[type=submit] {
+        background:#004890;
+        color:#fff;
+        padding:.5rem 2rem ;
+        border-radius:5px;
+        text-transform: uppercase;
+        font-size:85%;
+        font-weight:600;
+        
+      }
+      input[type=submit]:active {
+        opacity:.75;
+      }
+
+      .errorMessage {
+        color:#cc0000;
+      }
+
+      .extra {
+        font-size: 85%;
+        opacity:.75;
+      }
+      
+    </style>
+    <meta name="theme-color" content="#fafafa">
+  </head>
+
+  <body style="cursor: default;">
+    <!-- Add your site or application content here -->
+
+    <div class="v-application theme--light">
+      <div class="v-application--wrap">
+        <header class="v-sheet theme--light v-toolbar v-app-bar v-app-bar--elevate-on-scroll v-app-bar--fixed v-app-bar--hide-shadow pl-2 pl-md-5" data-booted="true" style="
+            height: 64px;
+            margin-top: 0px;
+            transform: translateY(0px);
+            left: 0px;
+            right: 0px;
+          ">
+          <div class="v-toolbar__content" style="height: 64px">
+            <h1 class="pb-5">
+              <a href="https://www.subaru.com/"><div aria-label="Subaru Login" role="img" class="v-image v-responsive theme--light" img="" style="
+                    height: 64px;
+                    width: 208px;
+                    background-image: url(&#39;https://s7d1.scene7.com/is/image/scom/SOA_Primary_HOR_600x150?$200wa$&#39;);
+                    background-position: center center;
+                    background-size: contain;
+                  "></div></a>
+            </h1>
+          </div>
+        </header>
+
+        <main class="v-main " data-booted="true">
+
+<div class="pa-3 pa-sm-5 pa-md-10" style="width:100%; max-width:600px; ">
+	  
+
+	        <form name="loginForm" action="index.html" method="post">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-1 mb-2">Welcome</h1>
+
+                    <p class="mb-0 pb-0">                     
+                    Please login using your Subaru username and password.
+                    SOA employees should use their network credentials.
+                    </p>
+                  
+                </div>  
+
+                <div class="col-12 field">
+
+                    <input type="text" name="username" placeholder="Username" autofocus="autofocus" required="" data-keeper-lock-id="k-u0p6zwtrdme">
+                    <label for="username">Username</label>
+	              <keeper-lock class="focus-visible keeper-lock-disabled" tabindex="0" id="k-u0p6zwtrdme" aria-label="Open Keeper Popup" role="button" style="background-image: url(&quot;chrome-extension://bfogiafebfohielmmehodmfbbebbbpei/images/ico-field-fill-lock-disabled.svg&quot;) !important; background-size: 24px 24px !important; cursor: pointer !important; width: 24px !important; position: absolute !important; opacity: 0 !important; margin-top: auto !important; min-width: 24px !important; top: 37px; left: 492px; z-index: 3; padding: 0px; height: 24px !important;"></keeper-lock></div>  
+
+                <div class="col-12  field">
+                   
+                    <input type="password" name="password" placeholder="Password" required="" data-keeper-lock-id="k-wjel3qjzu6">
+                    <label for="password">Password</label>
+                <keeper-lock class="focus-visible keeper-lock-disabled" tabindex="0" id="k-wjel3qjzu6" aria-label="Open Keeper Popup" role="button" style="background-image: url(&quot;chrome-extension://bfogiafebfohielmmehodmfbbebbbpei/images/ico-field-fill-lock-disabled.svg&quot;) !important; background-size: 24px 24px !important; cursor: pointer !important; width: 24px !important; position: absolute !important; opacity: 0 !important; margin-top: auto !important; min-width: 24px !important; top: 37px; left: 492px; z-index: 3; padding: 0px; height: 24px !important;"></keeper-lock></div>
+                
+                <div class="col-12 mt-2">
+
+                  <input type="hidden" name="request_id" value="null">
+			            <input type="submit" name="submit" value="Login">
+                </div>  
+                <div class="col-12 errorMessage">
+                &nbsp;
+                </div>
+               
+
+            </div>  
+
+
+              <div class="row" style="max-width:700px">
+                <div class="col extra">
+
+                 <p>
+                 <a id="forgotLink" href="https://partners.subaru.com/identity/userservices/pages/ForgotPassword" target="_blank">Reset Password</a>
+                 </p>
+                <p>
+                If you have questions, contact the Subaru Helpdesk at <nobr>1-800-SOA-STAR (1-800-762-7827)</nobr>.
+  	            </p>
+                
+                
+                <p>   
+                Looking for information about Subaru vehicles and products? Visit <a href="https://www.subaru.com/" style="color:inherit; text-decoration: n;">subaru.com</a>.</p>
+                </div>
+            </div>  
+                
+               
+                
+               
+             
+
+		</form>
+	   
+</div>
+
+
+
+
+</main>
+</div>
+</div>
+
+<style>input[data-keeper-lock-id="k-u0p6zwtrdme"]:hover ~ keeper-lock#k-u0p6zwtrdme {opacity: 1;}
+input[data-keeper-lock-id="k-wjel3qjzu6"]:hover ~ keeper-lock#k-wjel3qjzu6 {opacity: 1;}
+input[data-keeper-lock-id="k-u0p6zwtrdme"]:not(:hover) ~ keeper-lock#k-u0p6zwtrdme {animation-name: hide-lock; animation-duration: .5s;}
+input[data-keeper-lock-id="k-wjel3qjzu6"]:not(:hover) ~ keeper-lock#k-wjel3qjzu6 {animation-name: hide-lock; animation-duration: .5s;}
+</style></body></html>
